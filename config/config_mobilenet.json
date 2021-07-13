@@ -1,0 +1,21 @@
+
+
+{
+  "model"           : "mobilenet",
+  "weights"         : "imagenet",
+  "include_top"     : false,
+
+  "train_path"      : "/home/ubuntu/mission/sv_n/multi_class/dataset/train",
+  "test_path"       : "/home/ubuntu/mission/sv_n/multi_class/dataset/test",
+  "features_path"   : "/home/ubuntu/mission/sv_n/multi_class/output/flowers_17/inceptionv3/features.h5",
+  "labels_path"     : "/home/ubuntu/mission/sv_n/multi_class/output/flowers_17/inceptionv3/labels.h5",
+  "results"         : "/home/ubuntu/mission/sv_n/multi_class/output/flowers_17/inceptionv3/results.txt",
+  "classifier_path" : "/home/ubuntu/mission/sv_n/multi_class/output/flowers_17/inceptionv3/classifier.pickle",
+  "model_path"      : "/home/ubuntu/mission/sv_n/multi_class/utils/saved_models/mobilenetmodel.h5",
+
+  "test_size"       : 0.30,
+  "seed"            : 11,
+  "num_classes"     : 17,
+  "batch_size"      : 4,
+  "epoch"           : 1 
+}

@@ -1,0 +1,4 @@
+
+
+yapf -i -r --style="setup.cfg" *.py
+pylint --rcfile=.pylintrc  *.py
